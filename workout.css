@@ -265,7 +265,7 @@ circle{
 svg{
     position: absolute;
     top: -7px;
-    left: 120px;
+    left: 68px;
 }
 @keyframes anim{
     100%{stroke-dashoffset: 0;}
