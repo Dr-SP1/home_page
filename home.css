@@ -97,8 +97,7 @@ main {
     gap: 3rem;
     flex-wrap: wrap;
     position: relative;
-    /* height: 300px; */
-   
+    border-collapse: collapse;  
 
 }
 
@@ -217,6 +216,7 @@ video{
     left: 335px;
     justify-content: space-between;
     bottom:50px;
+    z-index: 100000;
     }
 .about ul{
     position: relative;
@@ -261,12 +261,14 @@ video{
     padding: 20px;
     border-radius: 30px;
     color: #fff;
+    z-index: 100000;
     
 }
 .join:hover{
     background-color: #0dc8a3;
     box-shadow: #b4afaf 4px 2px;
     transition: 0.3s ease;
+    
 }
 footer{
     position: relative;
